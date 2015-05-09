@@ -2,6 +2,11 @@
 
 /* HEADER LAYOUT */
 
+.navbar {
+    border-radius: 0;
+    border: 0;
+}
+
 /* NAV LAYOUT */
 
 /* ARTICLE LAYOUT */
@@ -9,5 +14,11 @@
 /* SECTION LAYOUT */
 
 /* FOOTER LAYOUT */
+
+footer {
+    .navbar-default {
+        background: transparent;
+    }
+}
 
 /* OTHER LAYOUT STYLES */
