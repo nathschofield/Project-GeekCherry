@@ -226,16 +226,32 @@ header .navbar-default .navbar-nav a {
   padding-bottom: 50px;
 }
 
-/* SECTION LAYOUT */
+/* BLOG */
+/* line 150, ../sass/_layout.scss */
+.main-blog-container {
+  width: 100%;
+  height: 100%;
+  background-color: #90583B;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+/* line 156, ../sass/_layout.scss */
+.main-blog-container img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 50px;
+}
+
 /* FOOTER LAYOUT */
-/* line 152, ../sass/_layout.scss */
+/* line 166, ../sass/_layout.scss */
 footer {
   padding-top: 50px;
   width: auto;
   padding: 150px;
   background: #590209;
 }
-/* line 157, ../sass/_layout.scss */
+/* line 171, ../sass/_layout.scss */
 footer .navbar-default {
   background: transparent;
 }

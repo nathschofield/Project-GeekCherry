@@ -145,7 +145,21 @@ header {
     }
 }
 
-/* SECTION LAYOUT */
+/* BLOG */
+
+.main-blog-container {
+    width: 100%;
+    height: 100%;
+    background-color: #90583B;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+}
 
 /* FOOTER LAYOUT */
 
