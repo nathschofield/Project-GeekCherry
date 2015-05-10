@@ -5,6 +5,11 @@ html, body {
     margin: 0;
 }
 
+body {
+    position: relative;
+    margin-top: 80px;
+}
+
 /* HEADER LAYOUT */
 
 .navbar {
@@ -14,7 +19,7 @@ html, body {
 
 header {
     .navbar {
-        padding: 15px;
+        padding: 15px 25px;
     }
     .navbar-default {
         background-color: #90583B;
@@ -36,11 +41,9 @@ header {
     background-color: #D8305D;
     padding-bottom: 50px;
     padding-top: 50px;
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        padding-bottom: 50px;
+    position: relative;
+    .logo-big {
+
     }
 }
 
@@ -52,12 +55,6 @@ header {
     background-color: #736B02;
     padding-bottom: 50px;
     padding-top: 50px;
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        padding-bottom: 50px;
-    }
 }
 
 /* MAIN SERVICES LAYOUT */
@@ -68,12 +65,6 @@ header {
     background-color: #white;
     padding-bottom: 50px;
     padding-top: 50px;
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        padding-bottom: 50px;
-    }
 }
 
 /* MAIN PORTFOLIO LAYOUT */
@@ -100,12 +91,6 @@ header {
     background-color: #90583B;
     padding-bottom: 50px;
     padding-top: 50px;
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        padding-bottom: 50px;
-    }
 }
 
 /* ARTICLE LAYOUT */
