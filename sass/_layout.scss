@@ -23,12 +23,76 @@ header {
     }
 }
 
+/* MAIN LOGO LAYOUT */
+
+.main-logo-container {
+    width: 100%;
+    height: 778px;
+    background-color: #D8305D;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+}
+
 /* MAIN ABOUT LAYOUT */
 
 .main-about-container {
     width: 100%;
-    height: 100%;
+    height: 778px;
     background-color: #736B02;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+}
+
+/* MAIN SERVICES LAYOUT */
+
+.main-article-container {
+    width: 100%;
+    height: 778px;
+    background-color: #white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+}
+
+/* MAIN PORTFOLIO LAYOUT */
+
+.main-portfolio-container {
+    width: 100%;
+    height: 100%;
+    background-color: #8B0327;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+}
+
+/* MAIN BLOG LAYOUT */
+
+.main-blog-container {
+    width: 100%;
+    height: 100%;
+    background-color: #90583B;
     padding-bottom: 50px;
     padding-top: 50px;
     img {
@@ -129,37 +193,7 @@ header {
     }
 }
 
-/* PORTFOLIO */
 
-.main-portfolio-container {
-    width: 100%;
-    height: 100%;
-    background-color: #8B0327;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        padding-bottom: 50px;
-    }
-}
-
-/* BLOG */
-
-.main-blog-container {
-    width: 100%;
-    height: 100%;
-    background-color: #90583B;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        padding-bottom: 50px;
-    }
-}
 
 /* FOOTER LAYOUT */
 
