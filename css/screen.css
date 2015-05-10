@@ -67,6 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* PARTIALS */
 /* IMPORT FONTS */
 /* HEADER TYPE */
 /* BODY TYPE */
@@ -83,7 +84,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* ARTICLE LAYOUT */
 /* SECTION LAYOUT */
 /* FOOTER LAYOUT */
-/* line 19, ../sass/_layout.scss */
+/* line 18, ../sass/_layout.scss */
+footer {
+  padding-top: 50px;
+}
+/* line 20, ../sass/_layout.scss */
 footer .navbar-default {
   background: transparent;
 }
