@@ -1,11 +1,15 @@
 /* IMPORT FONTS */
 
-
+@include font-face("Lato", font-file("fonts/Lato-Regular.ttf"));
 
 /* HEADER TYPE */
 
 /* BODY TYPE */
 
+body {
+    font-family: "Lato";
+}
 
+/* FOOTER TYPE */
 
 /* OTHER TYPE */

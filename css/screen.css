@@ -90,3 +90,17 @@ footer .navbar-default {
 }
 
 /* OTHER LAYOUT STYLES */
+/* IMPORT FONTS */
+@font-face {
+  font-family: "Lato";
+  src: font-file("fonts/Lato-Regular.ttf");
+}
+/* HEADER TYPE */
+/* BODY TYPE */
+/* line 9, ../sass/_type.scss */
+body {
+  font-family: "Lato";
+}
+
+/* FOOTER TYPE */
+/* OTHER TYPE */
