@@ -29,9 +29,8 @@ header {
     width: 100%;
     height: 100%;
     background-color: #736B02;
-    padding-top: 0;
     padding-bottom: 50px;
-    padding-top: 150px;
+    padding-top: 50px;
     img {
         margin-left: auto;
         margin-right: auto;
@@ -127,6 +126,22 @@ header {
         top: 30%;
         transform: translateY(-70%);
         text-align: center;
+    }
+}
+
+/* PORTFOLIO */
+
+.main-portfolio-container {
+    width: 100%;
+    height: 100%;
+    background-color: #8B0327;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 50px;
     }
 }
 
