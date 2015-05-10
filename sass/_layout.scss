@@ -29,7 +29,26 @@ header {
                 color: white;
                 padding: 5px auto;
             }
+            a:hover {
+                color: yellow;
+            }
+            a:active {
+                font-weight: 700;
+                color: palevioletred;
+                background: transparent;
+                border-bottom: 4px solid white;
+            }
         }
+    }
+}
+
+header {
+    .navbar-brand {
+        background: url(../imgs/GC-LOGO-100.png);
+        background-repeat: no-repeat;
+        background-position: 15px 0;
+        background-size: contain;
+        height: auto;
     }
 }
 
@@ -43,7 +62,12 @@ header {
     padding-top: 50px;
     position: relative;
     .logo-big {
-
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        img {
+            vertical-align: middle;
+        }
     }
 }
 

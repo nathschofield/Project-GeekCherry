@@ -102,9 +102,29 @@ header .navbar-default .navbar-nav a {
   color: white;
   padding: 5px auto;
 }
+/* line 32, ../sass/_layout.scss */
+header .navbar-default .navbar-nav a:hover {
+  color: yellow;
+}
+/* line 35, ../sass/_layout.scss */
+header .navbar-default .navbar-nav a:active {
+  font-weight: 700;
+  color: palevioletred;
+  background: transparent;
+  border-bottom: 4px solid white;
+}
+
+/* line 46, ../sass/_layout.scss */
+header .navbar-brand {
+  background: url(../imgs/GC-LOGO-100.png);
+  background-repeat: no-repeat;
+  background-position: 15px 0;
+  background-size: contain;
+  height: auto;
+}
 
 /* MAIN LOGO LAYOUT */
-/* line 38, ../sass/_layout.scss */
+/* line 57, ../sass/_layout.scss */
 .main-logo-container {
   width: 100%;
   min-height: 100%;
@@ -113,9 +133,19 @@ header .navbar-default .navbar-nav a {
   padding-top: 50px;
   position: relative;
 }
+/* line 64, ../sass/_layout.scss */
+.main-logo-container .logo-big {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* line 68, ../sass/_layout.scss */
+.main-logo-container .logo-big img {
+  vertical-align: middle;
+}
 
 /* MAIN ABOUT LAYOUT */
-/* line 52, ../sass/_layout.scss */
+/* line 76, ../sass/_layout.scss */
 .main-about-container {
   width: 100%;
   min-height: 100%;
@@ -125,7 +155,7 @@ header .navbar-default .navbar-nav a {
 }
 
 /* MAIN SERVICES LAYOUT */
-/* line 62, ../sass/_layout.scss */
+/* line 86, ../sass/_layout.scss */
 .main-article-container {
   width: 100%;
   min-height: 100%;
@@ -135,7 +165,7 @@ header .navbar-default .navbar-nav a {
 }
 
 /* MAIN PORTFOLIO LAYOUT */
-/* line 72, ../sass/_layout.scss */
+/* line 96, ../sass/_layout.scss */
 .main-portfolio-container {
   width: 100%;
   min-height: 100%;
@@ -143,7 +173,7 @@ header .navbar-default .navbar-nav a {
   padding-bottom: 50px;
   padding-top: 50px;
 }
-/* line 78, ../sass/_layout.scss */
+/* line 102, ../sass/_layout.scss */
 .main-portfolio-container img {
   margin-left: auto;
   margin-right: auto;
@@ -152,7 +182,7 @@ header .navbar-default .navbar-nav a {
 }
 
 /* MAIN BLOG LAYOUT */
-/* line 88, ../sass/_layout.scss */
+/* line 112, ../sass/_layout.scss */
 .main-blog-container {
   width: 100%;
   min-height: 100%;
@@ -162,7 +192,7 @@ header .navbar-default .navbar-nav a {
 }
 
 /* ARTICLE LAYOUT */
-/* line 98, ../sass/_layout.scss */
+/* line 122, ../sass/_layout.scss */
 .webdesign-head {
   width: 400px;
   height: 400px;
@@ -172,14 +202,14 @@ header .navbar-default .navbar-nav a {
   border-radius: 50%;
   border: solid 10px #7F1416;
 }
-/* line 106, ../sass/_layout.scss */
+/* line 130, ../sass/_layout.scss */
 .webdesign-head p {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
-/* line 112, ../sass/_layout.scss */
+/* line 136, ../sass/_layout.scss */
 .webdesign-head h3 {
   position: relative;
   top: 30%;
@@ -187,7 +217,7 @@ header .navbar-default .navbar-nav a {
   text-align: center;
 }
 
-/* line 120, ../sass/_layout.scss */
+/* line 144, ../sass/_layout.scss */
 .webdev-head {
   width: 400px;
   height: 400px;
@@ -197,14 +227,14 @@ header .navbar-default .navbar-nav a {
   border-radius: 50%;
   border: solid 10px #7F1416;
 }
-/* line 128, ../sass/_layout.scss */
+/* line 152, ../sass/_layout.scss */
 .webdev-head p {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
-/* line 134, ../sass/_layout.scss */
+/* line 158, ../sass/_layout.scss */
 .webdev-head h3 {
   position: relative;
   top: 30%;
@@ -212,7 +242,7 @@ header .navbar-default .navbar-nav a {
   text-align: center;
 }
 
-/* line 142, ../sass/_layout.scss */
+/* line 166, ../sass/_layout.scss */
 .consult-head {
   width: 400px;
   height: 400px;
@@ -222,14 +252,14 @@ header .navbar-default .navbar-nav a {
   border-radius: 50%;
   border: solid 10px #7F1416;
 }
-/* line 150, ../sass/_layout.scss */
+/* line 174, ../sass/_layout.scss */
 .consult-head p {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
-/* line 156, ../sass/_layout.scss */
+/* line 180, ../sass/_layout.scss */
 .consult-head h3 {
   position: relative;
   top: 30%;
@@ -237,7 +267,7 @@ header .navbar-default .navbar-nav a {
   text-align: center;
 }
 
-/* line 164, ../sass/_layout.scss */
+/* line 188, ../sass/_layout.scss */
 .blogger-head {
   width: 400px;
   height: 400px;
@@ -247,14 +277,14 @@ header .navbar-default .navbar-nav a {
   border-radius: 50%;
   border: solid 10px #7F1416;
 }
-/* line 172, ../sass/_layout.scss */
+/* line 196, ../sass/_layout.scss */
 .blogger-head p {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
-/* line 178, ../sass/_layout.scss */
+/* line 202, ../sass/_layout.scss */
 .blogger-head h3 {
   position: relative;
   top: 30%;
@@ -263,14 +293,14 @@ header .navbar-default .navbar-nav a {
 }
 
 /* FOOTER LAYOUT */
-/* line 190, ../sass/_layout.scss */
+/* line 214, ../sass/_layout.scss */
 footer {
   padding-top: 50px;
   width: auto;
   padding: 150px;
   background: #590209;
 }
-/* line 195, ../sass/_layout.scss */
+/* line 219, ../sass/_layout.scss */
 footer .navbar-default {
   background: transparent;
 }
@@ -287,66 +317,70 @@ footer .navbar-default {
 }
 /* HEADER TYPE */
 /* line 10, ../sass/_type.scss */
-.navbar-default .navbar-brand a {
-  color: white;
+header .navbar-brand h1 {
+  color: rosybrown;
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 400;
+  padding-left: 70px;
 }
 
 /* BODY TYPE */
-/* line 18, ../sass/_type.scss */
+/* line 22, ../sass/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "JosefinSans", sans-serif;
   font-weight: 100;
   margin: 0;
 }
 
-/* line 24, ../sass/_type.scss */
+/* line 28, ../sass/_type.scss */
 h2, h3 {
   text-align: center;
   padding-top: auto;
 }
 
-/* line 29, ../sass/_type.scss */
+/* line 33, ../sass/_type.scss */
 body {
   font-family: "Lato" sans-serif;
 }
 
-/* line 34, ../sass/_type.scss */
+/* line 38, ../sass/_type.scss */
 main h2 {
   font-size: 1.8em;
   text-align: center;
 }
-/* line 38, ../sass/_type.scss */
+/* line 42, ../sass/_type.scss */
 main p {
   font-size: 1.08em;
   text-align: center;
   padding-top: 15px;
 }
 
-/* line 47, ../sass/_type.scss */
+/* line 51, ../sass/_type.scss */
 article .main-article h2 {
   margin-top: 15px;
 }
 
-/* line 54, ../sass/_type.scss */
+/* line 58, ../sass/_type.scss */
 article h3 {
   font-size: 1.4em;
 }
-/* line 57, ../sass/_type.scss */
+/* line 61, ../sass/_type.scss */
 article p {
   font-size: 1.08em;
 }
 
-/* line 63, ../sass/_type.scss */
+/* line 67, ../sass/_type.scss */
 .main-portfolio-container h2 {
   color: white;
 }
 
 /* FOOTER TYPE */
-/* line 71, ../sass/_type.scss */
+/* line 75, ../sass/_type.scss */
 footer p {
   color: white;
 }
-/* line 74, ../sass/_type.scss */
+/* line 78, ../sass/_type.scss */
 footer a {
   color: white;
 }
