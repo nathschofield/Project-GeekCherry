@@ -1,14 +1,53 @@
 /* IMPORT FONTS */
 
+@include font-face("JosefinSans", font-file("fonts/JosefinSans-Regular.ttf"));
 @include font-face("Lato", font-file("fonts/Lato-Regular.ttf"));
 
 /* HEADER TYPE */
 
+.navbar-default {
+    .navbar-brand {
+        a {
+            color: white;
+        }
+    }
+}
 
 /* BODY TYPE */
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "JosefinSans", sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+h2, h3 {
+    text-align: center;
+    padding-top: auto;
+}
+
 body {
-    font-family: "Lato";
+    font-family: "Lato" sans-serif;
+}
+
+main {
+    h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    p {
+        font-size: 1.08em;
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+article {
+    .main-article {
+        h2 {
+            margin-top: 15px;
+        }
+    }
 }
 
 article {
@@ -21,5 +60,15 @@ article {
 }
 
 /* FOOTER TYPE */
+
+footer {
+    p {
+        color: white;
+    }
+    a {
+        color: white;
+    }
+}
+
 
 /* OTHER TYPE */

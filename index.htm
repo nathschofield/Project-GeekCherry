@@ -11,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <header class="nav-head">
-        <nav class="navbar navbar-inverse navbar-fixed" role="navigation">
+    <header class="nav-head" id="home">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -33,15 +33,18 @@
             </div><!-- collapse navbar-collapse -->
         </nav><!-- navbar navbar-inverse navbar-fixed -->
     </header><!-- nav header -->
-    <main class="content container" role="main">
-        <div class="row">
-            <header class="about-head" name="about">
-                <h2>What is GeekCherry</h2>
-                <p>GeekCherry provides a creative and modern approach to designing for the web. Our core belief is to keep it simple, while providing you the knowledge and resources to manage your own online presence today. <em>Speak to us today and let us pop your Geek Cherry!</em></p>
-            </header><!-- about-head -->
-        </div><!-- main row -->
-    </main><!-- main page with container -->
-    <article class="main-article content container" name="services">
+    <div class="main-about-container">
+        <main class="content container" role="main">
+            <div class="row">
+                <header class="about-head" id="about">
+                   <img src="imgs/500x500_logo_GC.png" alt="geekcherry logo" class="logo-big">
+                    <h2>What is GeekCherry</h2>
+                    <p>GeekCherry provides a creative and modern approach to designing for the web. Our core belief is to keep it simple, while providing you the knowledge and resources to manage your own online presence today. <em>Speak to us today and let us pop your Geek Cherry!</em></p>
+                </header><!-- about-head -->
+            </div><!-- main row -->
+        </main><!-- main page with container -->
+    </div><!-- main-about-container div -->
+    <article class="main-article content container" id="services">
         <h2>What we do at GeekCherry</h2>
         <section class="service-list row" role="article">
             <header class="webdesign-head col-sm-3">
@@ -62,7 +65,7 @@
             </header><!-- blogger-head -->
         </section><!-- service-list row -->
     </article><!-- main-article with container -->
-    <article class="portfolio content container" name="porfolio">
+    <article class="portfolio content container" id="portfolio">
         <h2>GeekCherry Portfolio</h2>
         <div class="row">
             <a href="#" class="portimg col-sm-4"><img src="imgs/image1.png" alt="Project"></a>
@@ -73,13 +76,13 @@
             <a href="#" class="portimg col-sm-4"><img src="imgs/image1.png" alt="Project"></a>
         </div><!-- portfolio row -->
     </article><!-- portfolio with container -->
-    <article class="blog content container" name="blog">
+    <article class="blog content container" id="blog">
         <section class="row" role="article">
             <h2>GeekCherry Blog</h2>
             <p>Check out the latest trends happening around the web today</p>
         </section><!-- blog row -->
     </article><!-- blog with container -->
-    <footer class="content container-fluid" role="contentinfo" name="contact">
+    <footer class="content container-fluid" role="contentinfo" id="contact">
         <div class="row">
             <div class="copyright col-sm-6">
                 <p><small><a href="copyright.htm" rel="license">&copy;Copyright</a> 2014 Nathan T. Schofield ABN 93 372 247 504</small></p>

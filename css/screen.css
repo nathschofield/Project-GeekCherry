@@ -76,9 +76,41 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 0;
 }
 
-/* NAV LAYOUT */
-/* ARTICLE LAYOUT */
+/* line 11, ../sass/_layout.scss */
+header .navbar {
+  padding: 15px;
+}
 /* line 14, ../sass/_layout.scss */
+header .navbar-default {
+  background-color: #90583B;
+  border: none;
+}
+/* line 18, ../sass/_layout.scss */
+header .navbar-default .navbar-nav a {
+  color: white;
+  padding: 5px auto;
+}
+
+/* MAIN ABOUT LAYOUT */
+/* line 28, ../sass/_layout.scss */
+.main-about-container {
+  width: 100%;
+  height: 100%;
+  background-color: #736B02;
+  padding-top: 0;
+  padding-bottom: 50px;
+  padding-top: 150px;
+}
+/* line 35, ../sass/_layout.scss */
+.main-about-container img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 50px;
+}
+
+/* ARTICLE LAYOUT */
+/* line 45, ../sass/_layout.scss */
 .webdesign-head {
   width: 400px;
   height: 400px;
@@ -86,15 +118,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 10px;
   background-color: #ff4c4c;
   border-radius: 50%;
+  border: solid 10px #7F1416;
 }
-/* line 21, ../sass/_layout.scss */
+/* line 53, ../sass/_layout.scss */
 .webdesign-head p {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
-/* line 27, ../sass/_layout.scss */
+/* line 59, ../sass/_layout.scss */
 .webdesign-head h3 {
   position: relative;
   top: 30%;
@@ -102,7 +135,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 35, ../sass/_layout.scss */
+/* line 67, ../sass/_layout.scss */
 .webdev-head {
   width: 400px;
   height: 400px;
@@ -110,15 +143,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 10px;
   background-color: #ff6666;
   border-radius: 50%;
+  border: solid 10px #7F1416;
 }
-/* line 42, ../sass/_layout.scss */
+/* line 75, ../sass/_layout.scss */
 .webdev-head p {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
-/* line 48, ../sass/_layout.scss */
+/* line 81, ../sass/_layout.scss */
 .webdev-head h3 {
   position: relative;
   top: 30%;
@@ -126,7 +160,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 56, ../sass/_layout.scss */
+/* line 89, ../sass/_layout.scss */
 .consult-head {
   width: 400px;
   height: 400px;
@@ -134,15 +168,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 10px;
   background-color: #ff7f7f;
   border-radius: 50%;
+  border: solid 10px #7F1416;
 }
-/* line 63, ../sass/_layout.scss */
+/* line 97, ../sass/_layout.scss */
 .consult-head p {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
-/* line 69, ../sass/_layout.scss */
+/* line 103, ../sass/_layout.scss */
 .consult-head h3 {
   position: relative;
   top: 30%;
@@ -150,7 +185,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 77, ../sass/_layout.scss */
+/* line 111, ../sass/_layout.scss */
 .blogger-head {
   width: 400px;
   height: 400px;
@@ -158,15 +193,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 10px;
   background-color: #ff9999;
   border-radius: 50%;
+  border: solid 10px #7F1416;
 }
-/* line 84, ../sass/_layout.scss */
+/* line 119, ../sass/_layout.scss */
 .blogger-head p {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
-/* line 90, ../sass/_layout.scss */
+/* line 125, ../sass/_layout.scss */
 .blogger-head h3 {
   position: relative;
   top: 30%;
@@ -176,11 +212,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* SECTION LAYOUT */
 /* FOOTER LAYOUT */
-/* line 102, ../sass/_layout.scss */
+/* line 137, ../sass/_layout.scss */
 footer {
   padding-top: 50px;
+  width: auto;
+  padding: 150px;
+  background: #590209;
 }
-/* line 104, ../sass/_layout.scss */
+/* line 142, ../sass/_layout.scss */
 footer .navbar-default {
   background: transparent;
 }
@@ -188,24 +227,72 @@ footer .navbar-default {
 /* OTHER LAYOUT STYLES */
 /* IMPORT FONTS */
 @font-face {
+  font-family: "JosefinSans";
+  src: font-file("fonts/JosefinSans-Regular.ttf");
+}
+@font-face {
   font-family: "Lato";
   src: font-file("fonts/Lato-Regular.ttf");
 }
 /* HEADER TYPE */
-/* BODY TYPE */
 /* line 10, ../sass/_type.scss */
-body {
-  font-family: "Lato";
+.navbar-default .navbar-brand a {
+  color: white;
 }
 
-/* line 15, ../sass/_type.scss */
+/* BODY TYPE */
+/* line 18, ../sass/_type.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "JosefinSans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+
+/* line 24, ../sass/_type.scss */
+h2, h3 {
+  text-align: center;
+  padding-top: auto;
+}
+
+/* line 29, ../sass/_type.scss */
+body {
+  font-family: "Lato" sans-serif;
+}
+
+/* line 34, ../sass/_type.scss */
+main h2 {
+  font-size: 1.8em;
+  text-align: center;
+}
+/* line 38, ../sass/_type.scss */
+main p {
+  font-size: 1.08em;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/* line 47, ../sass/_type.scss */
+article .main-article h2 {
+  margin-top: 15px;
+}
+
+/* line 54, ../sass/_type.scss */
 article h3 {
   font-size: 1.4em;
 }
-/* line 18, ../sass/_type.scss */
+/* line 57, ../sass/_type.scss */
 article p {
   font-size: 1.08em;
 }
 
 /* FOOTER TYPE */
+/* line 65, ../sass/_type.scss */
+footer p {
+  color: white;
+}
+/* line 68, ../sass/_type.scss */
+footer a {
+  color: white;
+}
+
 /* OTHER TYPE */
