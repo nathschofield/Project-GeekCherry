@@ -68,3 +68,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* PARTIALS */
+/* GLOBAL LAYOUT */
+/* HEADER LAYOUT */
+/* line 5, ../sass/_layout.scss */
+.navbar {
+  border-radius: 0;
+  border: 0;
+}
+
+/* NAV LAYOUT */
+/* ARTICLE LAYOUT */
+/* SECTION LAYOUT */
+/* FOOTER LAYOUT */
+/* line 18, ../sass/_layout.scss */
+footer {
+  padding-top: 50px;
+}
+/* line 20, ../sass/_layout.scss */
+footer .navbar-default {
+  background: transparent;
+}
+
+/* OTHER LAYOUT STYLES */
