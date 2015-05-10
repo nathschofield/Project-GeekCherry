@@ -11,6 +11,90 @@
 
 /* ARTICLE LAYOUT */
 
+.webdesign-head {
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    margin: 10px;
+    background-color: #ff4c4c;
+    border-radius: 50%;
+    p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    h3 {
+        position: relative;
+        top: 30%;
+        transform: translateY(-70%);
+        text-align: center;
+    }
+}
+
+.webdev-head {
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    margin: 10px;
+    background-color: #ff6666;
+    border-radius: 50%;
+    p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    h3 {
+        position: relative;
+        top: 30%;
+        transform: translateY(-70%);
+        text-align: center;
+    }
+}
+
+.consult-head {
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    margin: 10px;
+    background-color: #ff7f7f;
+    border-radius: 50%;
+    p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    h3 {
+        position: relative;
+        top: 30%;
+        transform: translateY(-70%);
+        text-align: center;
+    }
+}
+
+.blogger-head {
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    margin: 10px;
+    background-color: #ff9999;
+    border-radius: 50%;
+    p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    h3 {
+        position: relative;
+        top: 30%;
+        transform: translateY(-70%);
+        text-align: center;
+    }
+}
+
 /* SECTION LAYOUT */
 
 /* FOOTER LAYOUT */

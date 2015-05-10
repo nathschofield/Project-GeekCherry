@@ -78,13 +78,109 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* NAV LAYOUT */
 /* ARTICLE LAYOUT */
+/* line 14, ../sass/_layout.scss */
+.webdesign-head {
+  width: 400px;
+  height: 400px;
+  padding: 25px;
+  margin: 10px;
+  background-color: #ff4c4c;
+  border-radius: 50%;
+}
+/* line 21, ../sass/_layout.scss */
+.webdesign-head p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+/* line 27, ../sass/_layout.scss */
+.webdesign-head h3 {
+  position: relative;
+  top: 30%;
+  transform: translateY(-70%);
+  text-align: center;
+}
+
+/* line 35, ../sass/_layout.scss */
+.webdev-head {
+  width: 400px;
+  height: 400px;
+  padding: 25px;
+  margin: 10px;
+  background-color: #ff6666;
+  border-radius: 50%;
+}
+/* line 42, ../sass/_layout.scss */
+.webdev-head p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+/* line 48, ../sass/_layout.scss */
+.webdev-head h3 {
+  position: relative;
+  top: 30%;
+  transform: translateY(-70%);
+  text-align: center;
+}
+
+/* line 56, ../sass/_layout.scss */
+.consult-head {
+  width: 400px;
+  height: 400px;
+  padding: 25px;
+  margin: 10px;
+  background-color: #ff7f7f;
+  border-radius: 50%;
+}
+/* line 63, ../sass/_layout.scss */
+.consult-head p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+/* line 69, ../sass/_layout.scss */
+.consult-head h3 {
+  position: relative;
+  top: 30%;
+  transform: translateY(-70%);
+  text-align: center;
+}
+
+/* line 77, ../sass/_layout.scss */
+.blogger-head {
+  width: 400px;
+  height: 400px;
+  padding: 25px;
+  margin: 10px;
+  background-color: #ff9999;
+  border-radius: 50%;
+}
+/* line 84, ../sass/_layout.scss */
+.blogger-head p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+/* line 90, ../sass/_layout.scss */
+.blogger-head h3 {
+  position: relative;
+  top: 30%;
+  transform: translateY(-70%);
+  text-align: center;
+}
+
 /* SECTION LAYOUT */
 /* FOOTER LAYOUT */
-/* line 18, ../sass/_layout.scss */
+/* line 102, ../sass/_layout.scss */
 footer {
   padding-top: 50px;
 }
-/* line 20, ../sass/_layout.scss */
+/* line 104, ../sass/_layout.scss */
 footer .navbar-default {
   background: transparent;
 }
@@ -97,9 +193,18 @@ footer .navbar-default {
 }
 /* HEADER TYPE */
 /* BODY TYPE */
-/* line 9, ../sass/_type.scss */
+/* line 10, ../sass/_type.scss */
 body {
   font-family: "Lato";
+}
+
+/* line 15, ../sass/_type.scss */
+article h3 {
+  font-size: 1.4em;
+}
+/* line 18, ../sass/_type.scss */
+article p {
+  font-size: 1.08em;
 }
 
 /* FOOTER TYPE */
